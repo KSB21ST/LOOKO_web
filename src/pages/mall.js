@@ -163,7 +163,6 @@ class BoardForm extends Component {
             brand: brand
         })
         console.log("show data")
-        console.log(this.state)
     }
     
     handleSubmit = (e) => {
@@ -202,7 +201,7 @@ class BoardForm extends Component {
                     <td>country: {this.state.country}</td>
                     <td>gender: {this.state.gender}</td>
                     <td>brand: {this.state.brand}</td>
-                    <td><button type="submit" name="button" id="radioButton3" onClick={this.handleSubmit}>Selected Category</button></td>
+                    <td><button type="submit" name="button" id="radioButton3" onClick={this.handleSubmit}>Send</button></td>
                     </tr>
                 </tbody>
                 </table>
